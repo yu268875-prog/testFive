@@ -10,7 +10,7 @@
 #include <utility>
 
 // ======================= 可调参数 =======================
-constexpr int TOTAL_DATA = 64;                       // 数据总数
+constexpr int TOTAL_DATA = 128;                       // 数据总数
 constexpr int NUM_TABLES = 4;                        // 页表数量
 constexpr int PER_TABLE = TOTAL_DATA / NUM_TABLES;  // 每张页表项数 = 16
 constexpr int TLB_SIZE = 16;                        // TLB 容量
