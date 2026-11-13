@@ -13,7 +13,7 @@
 constexpr int TOTAL_DATA = 64;                       // 数据总数
 constexpr int NUM_TABLES = 4;                        // 页表数量
 constexpr int PER_TABLE = TOTAL_DATA / NUM_TABLES;  // 每张页表项数 = 16
-constexpr int TLB_SIZE = 8;                        // TLB 容量
+constexpr int TLB_SIZE = 16;                        // TLB 容量
 constexpr int DELAY_MIN_MS = 1000;                     // 页表访问最小延时(ms)
 constexpr int DELAY_MAX_MS = 2000;                     // 页表访问最大延时(ms)
 // =======================================================
